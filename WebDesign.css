@@ -70,18 +70,22 @@ body {
 
 @media screen and (min-width: 768px) {
     .header {
-        padding-left: 100px; 
+        padding-left: 0px; 
     }
 
     .main-text {
-        font-size: 50px; 
+        font-size: 10px; 
     }
 
     .content {
-        padding: 60px; 
+        padding: 10px; 
     }
 
     .contento {
-        padding: 120px;
+        padding: 20px;
     }
+}
+
+    .secondary-text {
+    font-size: 10px;
 }
