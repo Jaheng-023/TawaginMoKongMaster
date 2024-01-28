@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.main-container {
+    background-image: url("Bata.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: relative;
+    padding-left: 70px;
+}
+
+.main-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.red-line {
+    width: 30px;
+    height: 300px;
+    background-color: red;
+    margin-right: 0px;
+    margin-left: 200px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.contento {
+    padding: 100px;
+}
+
+.secondary-text {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 30px;
+}
+
+.line {
+    width: 30%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.line-red {
+    width: 55%;
+    height: 2px;
+    background-color: red;
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-left: 100px; 
+    }
+
+    .main-text {
+        font-size: 50px; 
+    }
+
+    .content {
+        padding: 60px; 
+    }
+
+    .contento {
+        padding: 120px;
+    }
+}
