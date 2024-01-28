@@ -85,10 +85,11 @@ body {
     .contento {
         padding: 30px; 
     }
-}
     .red-line {
     margin-left: 0px;
+    }
 }
+    
 
 
 @media screen and (min-width: 768px) {
