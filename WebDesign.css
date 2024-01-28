@@ -68,24 +68,40 @@ body {
 }
 
 
-@media screen and (min-width: 768px) {
+
+@media screen and (max-width: 767px) {
     .header {
-        padding-left: 0px; 
+        padding-left: 20px; 
     }
 
     .main-text {
-        font-size: 10px; 
+        font-size: 30px; 
     }
 
     .content {
-        padding: 10px; 
+        padding: 20px; 
     }
 
     .contento {
-        padding: 20px;
+        padding: 30px; 
     }
 }
 
-    .secondary-text {
-    font-size: 10px;
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-left: 100px; 
+    }
+
+    .main-text {
+        font-size: 50px; 
+    }
+
+    .content {
+        padding: 60px; 
+    }
+
+    .contento {
+        padding: 120px; 
+    }
 }
